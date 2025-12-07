@@ -6,7 +6,7 @@
     --color-primary-hover: #0ea5e9;
     --color-secondary: #1e293b;
     --color-accent: #2dd4bf;
-    
+
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Noto Sans JP', sans-serif;
 }
@@ -102,6 +102,7 @@ body {
     font-weight: 800;
     margin-bottom: 1.5rem;
     background: linear-gradient(to right, #fff, #94a3b8);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -314,4 +315,29 @@ body {
 
 .footer-links a:hover {
     color: var(--color-text);
+}
+
+.org-details {
+    margin-top: 1.5rem;
+    list-style: none;
+    padding: 0;
+}
+
+.org-details li {
+    margin-bottom: 0.5rem;
+    color: var(--color-text-muted);
+}
+
+.org-details strong {
+    color: var(--color-text);
+    margin-right: 0.5rem;
+}
+
+.org-details a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.org-details a:hover {
+    text-decoration: underline;
 }
